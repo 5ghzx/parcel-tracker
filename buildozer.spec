@@ -5,7 +5,7 @@ package.domain = org.bigyahu
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = python3==3.12.0,kivy==2.3.0,kivy_garden.mapview,requests,plyer,certifi
+requirements = python3,kivy==2.3.0,kivy_garden.mapview,requests,plyer,certifi
 orientation = portrait
 fullscreen = 0
 
