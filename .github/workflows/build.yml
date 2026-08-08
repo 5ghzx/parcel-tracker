@@ -19,7 +19,7 @@ jobs:
           docker run --rm \
             -v "$HOME/.buildozer:/home/user/.buildozer" \
             -v "${{ github.workspace }}:/home/user/hostcwd" \
-            ghcr.io/kivy/buildozer:latest \
+            ghcr.io/kivy/buildozer:latest@sha256:27e67ef7983b5603f79cb956796d8227e24ddaf6d63c265664fad54bf58f5b7b \
             android debug
 
       - name: Upload APK artifact
